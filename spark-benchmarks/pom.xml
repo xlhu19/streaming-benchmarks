@@ -18,7 +18,7 @@
     <repositories>
         <repository>
             <id>org.sedis</id>
-            <url>http://pk11-scratch.googlecode.com/svn/trunk</url>
+            <url>http://central.maven.org/maven2/</url>
         </repository>
     </repositories>
 
@@ -47,7 +47,7 @@
         </dependency>
         <dependency>
             <groupId>org.apache.spark</groupId>
-            <artifactId>spark-streaming-kafka_${scala.binary.version}</artifactId>
+            <artifactId>spark-streaming-kafka-${kafka.binary.version}</artifactId>
         </dependency>
         <dependency>
             <groupId>org.sedis</groupId>
